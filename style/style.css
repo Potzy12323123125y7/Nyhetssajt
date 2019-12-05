@@ -3,21 +3,43 @@ html {
     font-family: 'Raleway', sans-serif;
     min-height: 100%;
 }
+html, body {
+    padding: 0;
+}
 
 body {
     margin: 1em auto;
     background: #fff;
     /*width: 800px; */
-    width: 60%;
+    width: 70%;
 }
 
 /* main {
     min-height: 600px;
 } */
-.apa {
+.apa {/* Det här är flexbox */
     font-size: 1.2vw;
     width: 100%;
+    display: flex;
 }
+.apa2 {
+    font-size: 1.2vw;
+    width: 100%;
+    display: flex;
+}
+.Artiklel {
+    font-size: 1.3vw;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.japp {
+    padding: 10px;
+    border: 2px solid darkgreen;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
 #Article1 {
     width: 40%;
 }
@@ -25,9 +47,15 @@ body {
     width: 40%;
 }
 
+div.aporna {
+    border: solid 0.1vw darkgreen;
+    text-align: center;
+    
+}
 section {
     border-top: 1px solid gray;
 }
+
 p {
 font-size: 1.2vw;
 }
@@ -57,10 +85,10 @@ footer {
     text-align: center;
 }
 
-    .gorilla {
+    .gorilla { 
         position: relative;
   }
-  img{
+  .pistol{ /* Pistolbilden */
       width: 80%;
       height: 50%;
       margin-left: 10%;
