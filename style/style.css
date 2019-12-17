@@ -50,10 +50,21 @@ body {
 div.aporna {
     border: solid 0.1vw darkgreen;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
     
 }
+div.aporna1 {
+    border: solid 0.1vw darkgreen;
+    text-align: center;
+    padding: 10%;
+}
+
+
 section {
     border-top: 1px solid gray;
+    margin-left: 15%;
+    margin-right: 10%;
 }
 
 p {
@@ -64,8 +75,17 @@ h1 {
     text-align: center;
     font-size: 2vw;
 }
+h2 {
+    text-align: center;
+    font-size: 2vw;
+}
+h3 {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
 article {
-    padding: 10px;
+    padding: 2%;
 }
 
 nav {
@@ -88,12 +108,17 @@ footer {
     .gorilla { 
         position: relative;
   }
-  .pistol{ /* Pistolbilden */
+
+  .bellman {
+width: 80%;
+height: 80%;
+  }
+ .tval {
       width: 80%;
-      height: 50%;
-      margin-left: 10%;
+      height: 80%;
   }
   
+
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -102,3 +127,48 @@ footer {
       text-align: center;
       font-size: 1.2vw;
   }
+
+  .bellman:hover
+    {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+    }
+    .tval:hover
+    {
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+    }
+    section {
+        width: 60%;
+    }
+    .top{
+        background-color: #333;
+        overflow: hidden;
+        
+    }
+    a:hover {
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+    }
+    .marginleft
+    {
+        margin-left: 10%;
+    }
+    .hand {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
+    .hand:hover{
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px darkgreen;
+    }
