@@ -1,4 +1,5 @@
-html {
+html
+{
     background-color: lightgray;
     font-family: 'Raleway', sans-serif;
     min-height: 100%;
@@ -10,20 +11,16 @@ html, body {
 body {
     margin: 1em auto;
     background: #fff;
-    /*width: 800px; */
     width: 70%;
 }
 
-/* main {
-    min-height: 600px;
-} */
-.apa {/* Det här är flexbox */
-    font-size: 1.2vw;
+.apa {
+    font-size: 1.3vw;
     width: 100%;
     display: flex;
 }
 .apa2 {
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     width: 100%;
     display: flex;
 }
@@ -36,7 +33,7 @@ body {
 .japp {
     padding: 10px;
     border: 2px solid darkgreen;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -59,7 +56,11 @@ div.aporna1 {
     text-align: center;
     padding: 10%;
 }
-
+div.aporna2 {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
 section {
     border-top: 1px solid gray;
@@ -68,7 +69,7 @@ section {
 }
 
 p {
-font-size: 1.2vw;
+font-size: 1.3vw;
 }
 
 h1 {
@@ -91,7 +92,7 @@ article {
 nav {
     padding: 10px;
     border: 2px solid darkgreen;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -105,27 +106,18 @@ footer {
     text-align: center;
 }
 
-    .gorilla { 
-        position: relative;
-  }
-
   .bellman {
-width: 80%;
-height: 80%;
+    width: 80%;
+    height: 80%;
   }
  .tval {
       width: 80%;
       height: 80%;
   }
   
-
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-  }
   p{
       text-align: center;
-      font-size: 1.2vw;
+      font-size: 1.3vw;
   }
 
   .bellman:hover
@@ -158,7 +150,7 @@ height: 80%;
     }
     .marginleft
     {
-        margin-left: 10%;
+        margin-left: 20%;
     }
     .hand {
         width: 40%;
