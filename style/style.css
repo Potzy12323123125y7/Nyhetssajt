@@ -167,8 +167,47 @@ footer {
         -webkit-box-shadow: 0 0 10px #ccc;
         box-shadow: 0 0 10px darkgreen;
     }
-    @media only screen and (max-width:601px) {
+    @media only screen and (min-width: 600px) {
     body {
-        width: 100%;
+        width: auto;
+    }
+    h1 {
+        font-size: 2.5vw;
+    }
+    h2 {
+        font-size: 2.5vw;
+    }
+    p {
+        font-size: 1.8vw;
     }
     }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            width: auto;
+        }
+        h1 {
+            font-size: 2.5vw;
+        }
+        h2 {
+            font-size: 2.5vw;
+        }
+        p {
+            font-size: 1.8vw;
+        }
+        }
+
+    @media only screen and (min-width: 768px) {
+        body {
+            width: 80%
+    }
+    h1 {
+        font-size: 2vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+    p {
+        font-size: 1.3vw;
+    }
+}
