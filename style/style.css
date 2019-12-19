@@ -167,3 +167,8 @@ footer {
         -webkit-box-shadow: 0 0 10px #ccc;
         box-shadow: 0 0 10px darkgreen;
     }
+    @media only screen and (max-width:601px) {
+    body {
+        width: 100%;
+    }
+    }
