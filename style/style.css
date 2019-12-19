@@ -85,6 +85,9 @@ h3 {
     font-size: 2vw;
     color: white;
 }
+a {
+    font-size: 1.6vw;
+}
 article {
     padding: 2%;
 }
