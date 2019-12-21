@@ -11,7 +11,6 @@ html, body {
 body {
     margin: 1em auto;
     background: #fff;
-    width: 70%;
 }
 
 .apa {
@@ -167,24 +166,10 @@ footer {
         -webkit-box-shadow: 0 0 10px #ccc;
         box-shadow: 0 0 10px darkgreen;
     }
-    @media only screen and (min-width: 600px) {
-    body {
-        width: auto;
-    }
-    h1 {
-        font-size: 2.5vw;
-    }
-    h2 {
-        font-size: 2.5vw;
-    }
-    p {
-        font-size: 1.8vw;
-    }
-    }
 
     @media only screen and (max-width: 600px) {
         body {
-            width: auto;
+            width: 100%
         }
         h1 {
             font-size: 2.5vw;
@@ -195,11 +180,17 @@ footer {
         p {
             font-size: 1.8vw;
         }
+        #Article1 {
+            width: 50%;
+        }
+        #Article2 {
+            width: 50%;
+        }
         }
 
     @media only screen and (min-width: 768px) {
         body {
-            width: 80%
+            width: 70%
     }
     h1 {
         font-size: 2vw;
